@@ -10,4 +10,7 @@ List<registation> getAll();
 void del(int ri);
 registation updaterecord(int i ,registation r);
 
+List<registation> login(String emailId,String password);
+
+
 }
